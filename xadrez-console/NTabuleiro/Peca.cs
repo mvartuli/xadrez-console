@@ -15,5 +15,10 @@ namespace Ntabuleiro
             Tab = tab;
             QtdMovimentos = 0;
         }
+
+        public void IncrementarQdtMovimentos()
+        {
+            QtdMovimentos++;
+        }
     }
 }
